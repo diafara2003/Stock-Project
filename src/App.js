@@ -9,7 +9,7 @@ import HeaderLogin from './Components/Commons/HeaderLogin';
 function App() {
   return (
     <div className="App">
-     <HeaderLogin name="Jhonnatan Andres Urueña Diaz" ></HeaderLogin>
+     <HeaderLogin  name="Jhonnatan Andres Urueña Diaz" ></HeaderLogin>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
