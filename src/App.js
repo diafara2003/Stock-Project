@@ -1,12 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import HeaderLogin from './Components/Commons/HeaderLogin';
+
 //demo por si algo
 //https://uigradients.com/#BackToEarth
 
 function App() {
   return (
     <div className="App">
+     <HeaderLogin name="Jhonnatan Andres Urueña Diaz" ></HeaderLogin>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -15,6 +18,7 @@ function App() {
         <p>jau</p>
        
       </header>
+     
     </div>
   );
 }
